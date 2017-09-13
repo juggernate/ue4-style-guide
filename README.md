@@ -40,7 +40,7 @@ The word 'map' generally refers to what the average person calls a 'level' and m
 
 There are a few different ways you can name things. Here are some common casing types:
 
-> ###### PascalCase
+> ###### PascalCase (preferred by this guide)
 >
 > Capitalize every word and remove all spaces, e.g. `DesertEagle`, `StyleGuide`, `ASeriesOfWords`.
 > 
