@@ -264,6 +264,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Blueprint               | BP_        |            |                                  |
+| Blueprint Component	  | BP_	       | Component  | I.e. BP_InventoryComponent       |
 | Blueprint Function Library | BPFL_   |            |                                  |
 | Blueprint Interface     | BPI_       |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
@@ -1213,7 +1214,7 @@ This is a subjective check on a per-project basis, but as a general rule any mes
 
 <a name="4.3"></a>
 <a name="s-modular-snapping"></a>
-### 4.2 Modular Socketless Assets Should Snap To The Grid Cleanly ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
+### 4.3 Modular Socketless Assets Should Snap To The Grid Cleanly ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
 
 This is a subjective check on a per-asset basis, however any modular socketless assets should snap together cleanly based on the project's grid settings.
 
